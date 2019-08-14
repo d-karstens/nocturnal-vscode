@@ -1,0 +1,23 @@
+{
+  "name": "nocturnal-vscode",
+  "displayName": "Nocturnal",
+  "description": "Nocturnal",
+  "version": "2.1.1",
+  "publisher": "Moko",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.svg",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nocturnal",
+        "uiTheme": "vs-dark",
+        "path": "themes/nocturnal-theme.json"
+      }
+    ]
+  }
+}
